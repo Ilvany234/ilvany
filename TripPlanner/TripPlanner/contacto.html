@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css"> <!-- Llamamos a la misma hoja de estilos para reutilizar codigo-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"> <!-- Llamamos a la libreria de bootstrap-->
+    <title>Contacto</title>
+</head>
+
+<body>
+
+     <nav class = "navbar">
+    </nav>
+
+
+
+    <!-- Apartado para el envio de comentarios al equipo de "Lo quieres, te lo vendo"-->
+    <main class="contacto">
+        <h1>Comunicate con Nuestro Equipo</h1>
+        <div class="container my-5">
+            <div class="row align-items-center">
+            <!-- Columna izquierda: Imagen -->
+            <div class="col-md-6 text-center">
+                <img src="assets/img/play.jpg" alt="Imagen" class="img-fluid rounded">
+            </div>
+
+            <!-- Columna derecha: Formulario -->
+            <div class="col-md-6">
+                <h2>Formulario de Contacto</h2>
+                <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="correo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <p><strong>Nombre del equipo</strong> - 2025</p>
+    </footer>
+
+    <!--Se realizó el Script del bootstrap de la misma pagina, el cual agrega efectos al botón-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+
+    <script 
+        src="assets/js/script.js">
+    </script>
+</body>
+</html>

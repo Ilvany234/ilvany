@@ -1,0 +1,250 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: #333;
+  background: #fff;
+}
+
+h1, h2, h3 {
+  margin-bottom: 0.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn, .btn-outline {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn {
+  background: #ff9900;
+  color: white;
+}
+
+.btn-outline {
+  border: 2px solid #ff9900;
+  color: #ff9900;
+  background: transparent;
+  margin-right: 1rem;
+}
+
+.hero {
+  background: url('https://images.pexels.com/photos/615060/pexels-photo-615060.jpeg') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .overlay {
+  background-color: rgba(0,0,0,0.5);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero .highlight {
+  color: #ff9900;
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.easy-travel .content {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.promotions {
+  background: #4a3f2b;
+  color: #fff;
+}
+
+.promotions h2 {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #fff;
+  color: #000;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.services .grid,
+.testimonials .grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.service, blockquote {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.footer {
+  background: #2b2b2b;
+  color: white;
+  padding: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.contacto {
+    padding-left: 40px;
+    width: 90%;
+    height: auto;
+}
+
+.boton {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar {
+    background: #ff9900;
+    color: #fff;
+    text-align: center ;
+    padding: 20px ;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/*
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.imagen {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+  
+}
+
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+#plan-form {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#results {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  display: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+// Estilos para la pagina de Contacto
+
+.contacto {
+    padding-left: 40px;
+    width: 90%;
+    height: auto;
+}
+
+.boton {
+    display: flex;
+    justify-content: end;
+}
+    */
